@@ -1,0 +1,100 @@
+@import url("http://fonts.googleapis.com/css?family=Open+Sans:400,300,700|Poppins:300,400,500,700");
+
+body {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 300;
+  background-color: #222831;
+  color: #eeeeee;
+}
+
+h1,
+h2 {
+  font-family: "Raleway", sans-serif;
+  color: #00adb5;
+}
+
+a {
+  color: #00adb5;
+  text-decoration: none;
+}
+
+.btn-grey {
+  background-color: #d9cab3;
+  color: #222831;
+  padding: 8px 24px;
+  border-radius: 8px;
+}
+
+.btn-grey:hover {
+  background-color: #f5e8c7;
+  color: #0a81ab;
+}
+
+a:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.container {
+  width: 700px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.card {
+  background: #393e46;
+  padding: 30px;
+  border-radius: 4px;
+  box-shadow: 0 10px 30px #eeeeee;
+  margin: 40px;
+}
+
+.img-circle {
+  width: 200px;
+  border-radius: 50%;
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+.social-icon {
+  font-size: 32px;
+  color: #d9cab3;
+  margin: 8px 24px;
+  border-radius: 4px;
+  background: #00adb5;
+  padding: 10px 20px;
+  display: block;
+  width: 30px;
+  text-align: center;
+}
+
+.social-icon:hover {
+  background: #99d5d8;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
